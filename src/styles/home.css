@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+.intro{
+font-family: 'Oranienbaum', serif;
+position:relative;
+left: 13rem;
+top: 80px;
+color: white;
+}
+
+.homelogo{
+margin-left: 18rem;
+height:100vh; 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+.homelogo{
+    margin-left: -3rem;
+    margin-bottom: 30rem;
+    height: 40vh;
+}
+
+}
+

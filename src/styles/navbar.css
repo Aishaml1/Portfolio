@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+   
+    
+}
+.nav {
+    margin-left: 55rem;
+}
+
+.navLink {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-family: 'Oranienbaum', serif;
+    
+}
+
+.name{
+    font-family: 'Meddon', cursive;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    .nav {
+        margin-left: 15rem;
+    }
+}
+
+
+
+
