@@ -13,7 +13,7 @@ SwiperCore.use([Pagination,Navigation]);
 function Projects(){
   return(
     <Swiper
-    spaceBetween={10}
+    spaceBetween={15}
     slidesPerView={2}
     navigation
     pagination={{ clickable: true }}
@@ -28,10 +28,11 @@ function Projects(){
       key={project.id}
       >
       <div className='slider2'
-      > {project.projectName} </div>
+      > {project.projectName}
       <a href={project.website}> Click Here </a>
       <img
       src={require('../assets/Images/' + project.image + '.png')} alt={project.projectName} />
+      </div>
       </SwiperSlide>
     ))}
   </Swiper>

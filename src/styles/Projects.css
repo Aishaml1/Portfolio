@@ -17,15 +17,16 @@ body {
 }
 
 .swiper {
-    width: 80%;
-    height: 100%;
+    width: 90vh;
+    height: 50vh;
     margin-top: 10rem;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: rgba(255, 2, 2, 0.315);
+    background: rgba(255, 2, 2, 0.15);
+    border: solid rgb(255, 255, 255);
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -44,7 +45,14 @@ body {
 
 .swiper-slide img {
     display: block;
-    width: 40%;
-    height: 50%;
+    width: 40vh;
+    height: 30vh;
     object-fit:cover;
+}
+
+.slider2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction:column;
 }
