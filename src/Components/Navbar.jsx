@@ -14,9 +14,7 @@ export default class NavbarComp extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='nav'>
                             <Nav.Link><Link to="/" className='navLink'>Home</Link></Nav.Link>
-                            <Nav.Link><Link to="/about" className='navLink'>About Me</Link></Nav.Link>
                             <Nav.Link><Link to="/projects" className='navLink' >Projects</Link></Nav.Link>
-                            <Nav.Link><Link to="/contact" className='navLink'>Contact</Link></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

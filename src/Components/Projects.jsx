@@ -7,12 +7,13 @@ import SwiperCore, { Pagination,Navigation } from 'swiper';
 import '../styles/Projects.css';
 import { projects } from '../data/projects.js'
 
-
 SwiperCore.use([Pagination,Navigation]);
 
 function Projects(){
   return(
+    <div>
     <Swiper
+  
     spaceBetween={15}
     slidesPerView={2}
     navigation
@@ -36,6 +37,7 @@ function Projects(){
       </SwiperSlide>
     ))}
   </Swiper>
+  </div>
   );
 };
 

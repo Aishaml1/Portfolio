@@ -1,6 +1,5 @@
 import React from "react";
 import Lottie from 'react-lottie-player'
-import '../../styles/home.css';
 
 const Animation = (props) => {
 
@@ -11,8 +10,8 @@ const Animation = (props) => {
                 animationData={props.animData}
                 play
                 speed={1}
-                style={{ width: '20%', height: '20%',}}
-                className='circle'
+                style={{ width: '80vh', height: '80vh',}}
+                className='flowerr'
             />
         </div>
     )
