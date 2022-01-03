@@ -59,7 +59,7 @@ body {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
     .swiper {
-        width: 38vh;
+        width: 45vh;
         height: 20vh;
         margin-top: 10rem;
     }
