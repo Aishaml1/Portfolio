@@ -1,9 +1,11 @@
 export const projects = [
     {
         id: 1,
+        projectNum: 'Project 1',
         projectName: 'Funtime Trivia',
         website: 'https://jovial-varahamihira-1511db.netlify.app/',
-        image: 'funtime'
+        image: 'funtime',
+        Description: '',
 
     },
     {
