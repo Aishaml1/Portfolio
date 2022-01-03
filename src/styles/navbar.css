@@ -2,30 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
 .navbar {
     background-color: rgba(0, 0, 0, 0);
-   
-    
+
 }
 .nav {
-    margin-left: 55rem;
+    margin-left: 38rem;
 }
 
 .navLink {
-    color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Oranienbaum', serif;
+    font-size: 20px;
     
 }
 
 .name{
     font-family: 'Meddon', cursive;
-    font-size: 15px;
-    color:rgb(255, 255, 255);
+    font-size: 20px;
+    color:rgb(0, 0, 0);
     
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    .navbar {
+        background-color: rgb(216, 149, 228)
+    
+    }
     .nav {
         margin-left: 15rem;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navLink {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-family: 'Oranienbaum', serif;
+        font-size: 20px;
+        
+    }
+    
+    .name{
+        font-family: 'Meddon', cursive;
+        font-size: 20px;
+        color:rgb(0, 0, 0);
+        
     }
 }
 
